@@ -11,7 +11,7 @@ public class Server extends Thread{
     private int port;
     private String filePath;
 
-    private File csvFile;
+    private static File csvFile;
 
     public Server(int port, String filePath) {
         this.port = port;
